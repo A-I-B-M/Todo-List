@@ -26,27 +26,6 @@ It allows users to **add, edit, and delete tasks** with a sleek UI and responsiv
 
 ---
 
-## Project Structure
-
-react-todo/
-│
-├── server/ # Backend folder
-│ ├── db.js # PostgreSQL connection
-│ ├── index.js # Express server & routes
-│ └── package.json # Server dependencies
-│
-├── client/ # Frontend folder
-│ ├── src/
-│ │ ├── components/ # React components
-│ │ │ ├── InputTodo.jsx
-│ │ │ ├── ListTodo.jsx
-│ │ │ └── EditTodo.jsx
-│ │ ├── App.jsx
-│ │ ├── index.jsx
-│ │ └── css/ # Styling files
-│ └── package.json # Frontend dependencies
-│
-└── README.md # Project description
 
 
 
@@ -56,6 +35,7 @@ cd server
 npm install
 node index.js      
 
+### Frontend
 cd client
 npm install
 npm start
