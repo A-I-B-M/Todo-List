@@ -1,4 +1,4 @@
-# Amdadul Todo App
+#  Todo App
 
 A modern, full-stack **Todo List application** built with **React**, **Node.js**, **Express**, and **PostgreSQL**.  
 It allows users to **add, edit, and delete tasks** with a sleek UI and responsive design.  
