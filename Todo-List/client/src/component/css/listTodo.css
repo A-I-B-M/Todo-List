@@ -1,0 +1,77 @@
+.list-todo-container {
+    max-width: 800px;
+    margin: 30px auto;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,255,180,0.2);
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 1px 1px 8px #00ffe1;
+}
+
+/* Table */
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.todo-table th, .todo-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.todo-table thead {
+    background: linear-gradient(90deg, #572f47, #387888, #191758);
+    color: white;
+    border-radius: 12px;
+}
+
+.todo-table tbody tr {
+    background: rgba(255,255,255,0.05);
+    transition: all 0.3s ease;
+}
+
+.todo-table tbody tr:hover {
+    background: rgba(0,255,180,0.1);
+    transform: translateY(-2px);
+}
+
+/* Buttons */
+.btn-edit, .btn-delete {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-edit {
+    background: #42e695;
+    color: #fff;
+}
+
+.btn-edit:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #42e695;
+}
+
+.btn-delete {
+    background: #ff6e6e;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ff6e6e;
+}
+
+/* Empty state */
+.text-center {
+    color: #aaa;
+    padding: 20px 0;
+}
