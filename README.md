@@ -32,10 +32,14 @@ It allows users to **add, edit, and delete tasks** with a sleek UI and responsiv
 ### Backend
 
 cd server
+
 npm install
+
 node index.js      
 
 ### Frontend
 cd client
+
 npm install
+
 npm start
